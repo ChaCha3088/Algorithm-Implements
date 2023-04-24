@@ -1,11 +1,12 @@
 #include <iostream>
 
 #define fastIo cin.tie(0), cout.tie(0), ios::sync_with_stdio(0)
+#define ITER 8
 
 using namespace std;
 
-int arr[5];
-int iter = 5;
+int arr[ITER];
+int iter = ITER;
 int keyValue;
 
 int main() {
@@ -34,7 +35,7 @@ int main() {
         }
 
         //출력
-        for (int k = 0; k < iter; k++) {
+        for (int k = 0; k < iter; ++k) {
             cout << arr[k];
             if (k != iter - 1) {
                 cout << " ";
