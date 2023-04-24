@@ -3,4 +3,4 @@ project(Algorithm_Implements)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Execute "Sort/Quick Sort.cpp")
+add_executable(Execute "Data Structure/Queue With Two Stacks.cpp")

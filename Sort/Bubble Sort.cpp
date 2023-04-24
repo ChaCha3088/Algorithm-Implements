@@ -5,7 +5,6 @@
 
 using namespace std;
 
-
 int arr[ITER];
 int iter = ITER;
 int temp;
