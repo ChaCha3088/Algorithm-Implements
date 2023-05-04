@@ -101,7 +101,7 @@ int main() {
     cin >> N;
     Deque deque(2 * N);
 
-    for (int i = 0; i < N; i++) {
+    for (int i = 0; i < N; ++i) {
         string cmd;
         cin >> cmd;
 
