@@ -1,3 +1,5 @@
+//https://xtar.tistory.com/40
+
 #include <iostream>
 
 #define fastIo cin.tie(0), cout.tie(0), ios::sync_with_stdio(0)

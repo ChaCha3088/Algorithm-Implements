@@ -1,3 +1,5 @@
+//2417-정수 제곱근-Silver4-https://www.acmicpc.net/problem/2417
+
 #include <iostream>
 
 #define fastIo cin.tie(0), cout.tie(0), ios::sync_with_stdio(0)
@@ -38,8 +40,6 @@ ull squareRoot(ull n) {
         }
     }
 }
-
-//2417-정수 제곱근-Silver4-https://www.acmicpc.net/problem/2417
 
 int main() {
     fastIo;

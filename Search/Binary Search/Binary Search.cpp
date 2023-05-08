@@ -1,3 +1,5 @@
+//1920-수 찾기-Silver4-https://www.acmicpc.net/problem/1920
+
 #include <iostream>
 #include <algorithm>
 
@@ -28,7 +30,6 @@ int binarySearch(int target, int start, int end) {
     }
 }
 
-//1920-수 찾기-Silver4-https://www.acmicpc.net/problem/1920
 int main() {
     fastIo;
 
