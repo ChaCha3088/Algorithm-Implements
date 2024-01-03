@@ -1,6 +1,6 @@
 package org.example.permutationandcombination.combination.bitmask;
 
-public class CombinationWithBitMask {
+public class Combination {
     private static int[] arr = new int[] {1, 2, 3, 4};
     private static int K = 3;
     private static StringBuilder sb = new StringBuilder();

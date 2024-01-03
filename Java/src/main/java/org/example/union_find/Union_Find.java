@@ -65,7 +65,9 @@ public class Union_Find {
         x = find(x);
         y = find(y);
 
+        // 부모가 다르면
         if (x != y) {
+            // x에다가 y를 연결한다.
             nodes[y] = x;
         }
     }

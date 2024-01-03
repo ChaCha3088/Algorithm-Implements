@@ -27,9 +27,9 @@ public class BinarySearch {
         Arrays.sort(arr);
 
         int l = 0;
-        int r = arr.length - 1;
+        int r = arr.length;
 
-        while (l < r) {
+        while (l <= r) {
             int mid = (l + r) / 2;
 
             if (arr[mid] == target) {
